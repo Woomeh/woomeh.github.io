@@ -6,17 +6,187 @@
     <title>Zac Walker</title>
     <style>
         body, html {
-            background-color: #000; /* Optional: adds a black backdrop */
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
         }
-
-
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            max-width: 2000px;
+            margin: 0 auto;
+        }
+        .media-container {
+            background-color: #111;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+            transition: transform 0.2s;
+        }
+        .media-container:hover {
+            transform: scale(1.03);
+        }
+        .media-container img, 
+        .media-container video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .filename {
+            padding: 12px;
+            text-align: center;
+            font-size: 0.85em;
+            background-color: #1a1a1a;
+            word-break: break-all;
+            color: #ccc;
+        }
+        video {
+            background-color: #000;
+        }
     </style>
 </head>
 <body>
+    <h1>Zac Walker - Complete Gallery</h1>
+    <div class="gallery">
 
-    <img src="zacwalker.png" alt="Zac Walker" class="fullscreen-image">
-    <img src="zacwalker2.jpg" alt="Zac Walker" class="fullscreen-image">
-    <img src="zacwalker3.jpg" alt="Zac Walker" class="fullscreen-image">
+        <!-- Top Row Images -->
+        <div class="media-container">
+            <img src="1780332509176.jpg" alt="Zac Walker">
+            <div class="filename">1780332509176.jpg</div>
+        </div>
+        <div class="media-container">
+            <img src="1780332509353.jpg" alt="Zac Walker">
+            <div class="filename">1780332509353.jpg</div>
+        </div>
+        <div class="media-container">
+            <img src="imagezac.png" alt="Zac Walker">
+            <div class="filename">imagezac.png</div>
+        </div>
+        <div class="media-container">
+            <img src="imagezacy (1).png" alt="Zac Walker">
+            <div class="filename">imagezacy (1).png</div>
+        </div>
+        <div class="media-container">
+            <img src="imagezacy.png" alt="Zac Walker">
+            <div class="filename">imagezacy.png</div>
+        </div>
+        <div class="media-container">
+            <img src="IMG_0431.jpg" alt="Zac Walker">
+            <div class="filename">IMG_0431.jpg</div>
+        </div>
 
+        <!-- Screenshots -->
+        <div class="media-container">
+            <img src="Screenshot 2025-12-13 201855.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-13 201855.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-13 201859.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-13 201859.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-13 194506.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-13 194506.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-13 194540.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-13 194540.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-15 194638.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-15 194638.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-15 212635.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-15 212635.png</div>
+        </div>
+
+        <!-- Second row screenshots -->
+        <div class="media-container">
+            <img src="Screenshot 2025-12-15 213000.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-15 213000.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-15 213013.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-15 213013.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-15 213343.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-15 213343.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-15 213400.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-15 213400.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-15 213756.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-15 213756.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-15 213759.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-15 213759.png</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot 2025-12-16 213032.png" alt="Screenshot">
+            <div class="filename">Screenshot 2025-12-16 213032.png</div>
+        </div>
+
+        <!-- Snapchat & Others -->
+        <div class="media-container">
+            <img src="Screenshot_2026-01-27-12-33-32-2_9_a63b0f8076346d26cbd1b971a..." alt="Screenshot">
+            <div class="filename">Screenshot_2026-01-27-12-33-33-29_a63b0f8076346d26cbdc1b971a1da2a7.jpg</div>
+        </div>
+        <div class="media-container">
+            <img src="Screenshot_2026-03-03-20-03-09-9_4_a63b0f8076346d26cbd1b971a..." alt="Screenshot">
+            <div class="filename">Screenshot_2026-03-03-20-03-09-94_a63b0f8076346d26cbdc1b971a1da2a7.jpg</div>
+        </div>
+        <div class="media-container">
+            <img src="Snapchat-201783 962.jpg" alt="Snapchat">
+            <div class="filename">Snapchat-201783 962.jpg</div>
+        </div>
+
+        <!-- Videos -->
+        <div class="media-container">
+            <video controls>
+                <source src="Snapchat-130268 1795 (1).mp4" type="video/mp4">
+            </video>
+            <div class="filename">Snapchat-130268 1795 (1).mp4</div>
+        </div>
+        <div class="media-container">
+            <video controls>
+                <source src="Snapchat-130268 1795.mp4" type="video/mp4">
+            </video>
+            <div class="filename">Snapchat-130268 1795.mp4</div>
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="media-container">
+            <img src="zaccamp.png" alt="Zac Camp">
+            <div class="filename">zaccamp.png</div>
+        </div>
+        <div class="media-container">
+            <video controls>
+                <source src="zacmeow.mp4" type="video/mp4">
+            </video>
+            <div class="filename">zacmeow.mp4</div>
+        </div>
+        <div class="media-container">
+            <img src="zacwalker.png" alt="Zac Walker">
+            <div class="filename">zacwalker.png</div>
+        </div>
+        <div class="media-container">
+            <img src="zacwalker2.jpg" alt="Zac Walker">
+            <div class="filename">zacwalker2.jpg</div>
+        </div>
+
+    </div>
 </body>
 </html>
